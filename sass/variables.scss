@@ -1,0 +1,12 @@
+// Kolory
+$bialy: hsl(0,0%,100%);
+$glowny: hsl(2,75%,50%);
+
+
+//Właściwosci
+$szerokosc: 65%;
+
+
+@mixin box-shadow {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 10px 0 rgba(0, 0, 0, 0.19);
+    }

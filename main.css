@@ -1,0 +1,167 @@
+html,p {
+    font-family: "Helvetica";
+    font-size: 25x;
+    padding: 0px;
+    margin: 0;
+
+}
+
+.clear {
+    clear: both;
+}
+
+.glowa {
+    display: flex;
+    margin: 0 auto;
+    width: 65%;
+    align-items: center;
+    padding: 20px 0;
+}
+
+
+.logo {
+    height: 100px;
+    width: 200px;
+}
+
+.logo img {
+    height: 100px;
+}
+
+.logo a {}
+
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+ul.menu {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    margin: 0px;
+}
+
+ul.menu li {
+    display: flex;
+    list-style-type: none;
+    margin-left: 30px;
+
+}
+
+ul.menu li a {
+    color: #961e24;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+
+.bigone {
+    position: relative;
+    display: flex;
+    height: 75vh;
+    background-image: url("IMG/masaz.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.bigone .shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -10;
+}
+
+.sentence {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%
+}
+
+h1.motto {
+    color: white;
+    font-style: italic;
+    font-size: 80px;
+    width: 50%;
+}
+
+h2.autor {
+    color: white;
+    align-self: center;
+    font-size: 45px;
+
+}
+
+#main {
+ 
+    margin: 0 auto;
+    width: 65%;
+    height: 100%;
+}
+
+h1{
+    color:#961e24;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+}
+
+.o_nas {
+
+    justify-content: flex-end;
+}
+
+img {
+    display: flex;
+    width: 200px;
+    height: 100%;
+
+}
+
+.o_mnie {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.o_mnie p {
+    display: flex;
+}
+
+.o_mnie h3 {
+    display: flex;
+    align-self: center;
+}
+
+.opis {
+    margin-left: 50px;
+    align-self: center;
+}
+
+#cennik h2,h3{
+    color:#961e24;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+#cennik{
+    display: flex;
+    flex-direction: column;
+}
+
+.masaz{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
